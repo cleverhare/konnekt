@@ -1,0 +1,146 @@
+/* Font Imports Here  */
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f8f8f8;
+}
+.chat-layout {
+  width: 800px;
+  /* border: 2px solid red; */
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 51%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+  max-width: 90%;
+  border-radius: 8px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+.new-user {
+  text-align: center;
+  font-family: "Baloo Bhai 2", cursive;
+  font-weight: bold;
+}
+.left-user {
+  text-align: center;
+  font-family: "Baloo Bhai 2", cursive;
+  font-weight: bold;
+}
+.head {
+  width: 100%;
+  height: 60px;
+  background: #e3d7ff;
+  padding: 20px;
+  /* border-radius: 8px; */
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.head img {
+  height: 40px;
+  margin-left: -10px;
+  cursor: pointer;
+}
+.brand {
+  font-family: "Baloo Bhai 2", cursive;
+  /* margin: 4px; */
+  font-size: 20px;
+  cursor: pointer;
+}
+.k {
+  transform: rotate(-180deg);
+  font-family: "Baloo Bhai 2", cursive;
+  /* margin: 4px; */
+  font-size: 20px;
+  cursor: pointer;
+}
+.bp-2 {
+  font-family: "Baloo Bhai 2", cursive;
+  /* margin: 4px; */
+  font-size: 20px;
+  cursor: pointer;
+}
+.message {
+  max-width: 300px;
+  height: 30px;
+  padding: 20px;
+  border-radius: 4px;
+}
+.left {
+  max-width: 300px;
+  height: 30px;
+  padding: 20px;
+  border-radius: 4px;
+  float: left;
+  clear: both;
+  background-color: #e3d7ff;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  font-family: "Baloo Bhai 2", cursive;
+}
+.sender {
+  float: left;
+  clear: both;
+  margin-left: 4px;
+  margin-top: 2px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+.right {
+  float: right;
+  clear: both;
+  background-color: rgb(95, 93, 243);
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  font-family: "Baloo Bhai 2", cursive;
+  font-weight: bold;
+}
+.mine {
+  float: right;
+  clear: both;
+  margin-right: 4px;
+  margin-top: 2px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+form {
+  display: flex;
+}
+textarea {
+  width: 90%;
+  border: none;
+  padding: 20px;
+  font-size: 16px;
+  outline: none;
+  background: #f8f8f8;
+  font-family: "Baloo Bhai 2", cursive;
+  font-weight: bold;
+  overflow-x: hidden;
+}
+.btn {
+  width: 100px;
+  height: 40px;
+  margin-top: 12px;
+  display: inline;
+  margin-right: 16px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  /* background: none; */  
+  font-family: "Baloo Bhai 2", cursive;
+  font-weight: bold;
+}
+.btn:hover{
+  background: #f0eafd;
+}

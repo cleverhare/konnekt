@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Konnekt -- All new and clasy chat app </title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section class="chat-layout">
+      <div class="head">
+        <img src="chat.png" alt="Logo" />
+        <h2 class="brand">Konne</h2>
+        <b class="k">K</b>
+        <h2 class="bp-2">t</h2>
+      </div>
+      <div class="message-container">
+          <!-- <h3 class="new-user">Rohan Joined The Chat</h3>
+          <h3 class="left-user">Rohan left The Chat</h3> -->
+          <!-- <h4 class="sender">Rohan</h4>
+          <div class="message left"> Hi How are you?!</div>
+          <h4 class="mine">Soumya</h4>
+          <div class="message right">I am fine what about you bro!!</div> -->
+      </div>
+      <div class="message-inp">
+        <form action="#" method="post" id="send-container">
+          <textarea name="messageinp" id="messageinp" cols="30" rows="1" placeholder="Enter Your Message..."></textarea>
+          <button class="btn" id="btn" type="button">Send</button>
+        </form>
+      </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./js/client.js"></script>
+  </body>
+</html>
